@@ -3,6 +3,11 @@ module github.com/db-migrate-cli
 go 1.23.2
 
 require (
+	github.com/mattn/go-sqlite3 v1.14.24
+	golang.org/x/term v0.27.0
+)
+
+require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/lib/pq v1.10.9 // indirect
@@ -14,5 +19,6 @@ require (
 	go.mongodb.org/mongo-driver v1.17.1 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 )
